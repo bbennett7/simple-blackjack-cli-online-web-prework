@@ -33,7 +33,9 @@ def hit?(display_card_total)
   loop do
     prompt_user
     answer = gets.chomp
-    if answer = 
+    break if answer = "s"
+    if answer = "h"
+      deal_card
   
   else
     invalid_command
