@@ -29,12 +29,12 @@ def initial_round
   return card1 + card2
 end
 
-def hit?(number)
+def hit?(display_card_total)
   prompt_user
-  get_user_input
-  if get_user_input = "h"
+  player_card = get_user_input
+  if player_card = "h"
     deal_card
-  end
+  
 end
 
 def invalid_command
