@@ -56,7 +56,7 @@ def runner
   initial_round
   hit?
   until display_card_total > 21
-    loop do
       hit?
+  end
 end
     
