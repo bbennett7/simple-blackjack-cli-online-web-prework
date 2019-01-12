@@ -32,6 +32,7 @@ end
 def hit?(display_card_total)
   prompt_user
   answer = gets.chomp
+  
   else
     invalid_command
     prompt_user
