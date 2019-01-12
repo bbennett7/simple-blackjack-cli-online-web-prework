@@ -36,7 +36,6 @@ def hit?(display_card_total)
     break if answer = "s"
     if answer = "h"
       deal_card
-  
   else
     invalid_command
     prompt_user
