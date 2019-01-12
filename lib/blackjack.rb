@@ -32,7 +32,7 @@ end
 def hit?(display_card_total)
   loop do
     prompt_user
-    answer = gets.chomp
+    answer = get_user_input
     deal_card
 end
 
