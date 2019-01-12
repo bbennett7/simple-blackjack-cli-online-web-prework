@@ -33,7 +33,7 @@ def hit?(display_card_total)
   loop do
     prompt_user
     answer = get_user_input
-    break if answer == "'s'"
+    break if answer = "s"
 end
 
 def invalid_command
